@@ -3399,18 +3399,29 @@ input[type='button'].small,
 
 #google-map {
   height: 800px;
-  margin-bottom: 100px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
   #google-map {
     height: 500px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
 }
 
 @media screen and (max-width: 480px) {
   #google-map {
     height: 300px;
+    margin-left: -1em;
+    margin-right: -1em;
   }
+}
+
+#footer {
+  padding-bottom: 1em !important;
+}
+
+#footer .copyright {
+  font-size: 0.7em !important;
+  margin: 0 !important;
 }
